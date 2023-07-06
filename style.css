@@ -1,0 +1,136 @@
+.s1{
+    background-color: #F9E0BB;
+    color:#8E3200;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;    
+    font-family: 'fasthand', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar{
+    overflow:auto;
+    background-color: #8E3200;
+    border-radius: 5px;
+}
+
+a{
+    margin:5px 10px;
+    margin-top: -10px;
+    padding: 10px 15px;
+    color:#F9E0BB;
+    text-decoration: none;
+    border-radius: 20px;
+    font-display:var(10px);
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    float:left;
+    transition: all 1s ease-in-out;
+}
+
+a:hover{
+    color:white;
+    background-color: burlywood;
+}
+
+#cart{
+    float:right;
+}
+
+h1{
+    color:#F9E0BB;
+    text-align:left;
+    font-size: 4rem;
+    font-family: 'Lato',sans-serif;
+    display: inline-block;
+    text-align:center;
+    backdrop-filter: blur(10px);
+    margin-bottom: 5px;
+    margin-right:50%;
+}
+
+h2{
+    color:#F9E0BB;
+    font-family: 'Dancing Script', cursive;
+    display:inline-block;
+    font-size: 2.5rem; 
+    margin-top: 5px;
+    margin-bottom: 75px;
+    backdrop-filter: blur(10px);
+}
+
+p{
+    color:#F9E0BB;
+    backdrop-filter: blur(10px);
+    margin:25%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+
+#box{
+    background-color: #862B0D;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color:white;
+    transition: all 0.7s;
+}
+
+#box:hover{
+    color:black;
+    background-color: bisque;
+}
+
+footer{
+    color:#F9E0BB;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-top:75px;
+}
+
+@media (max-width:600px){
+    p{
+        color:#862B0D;
+    }
+    h1{
+        color:#862B0D;
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 10px;
+        text-align:center;
+       /* margin-left: 15%;*/
+    }
+    h2{
+        color:#862B0D;
+        margin-bottom: 20px;
+    }
+    footer{
+        color:#862B0D;
+    }
+    .navbar{
+        display:inline-flex;
+        background-color: peru;
+        padding-left:-50px;
+    }
+    #cart{
+        float: left;
+    }
+    .s1{
+        background-color: palegoldenrod;
+        border:5px solid papayawhip;
+    }
+}
